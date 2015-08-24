@@ -47,9 +47,10 @@ Creates the beacon to be used within pillar for your minions
 ``srv.pillar.slack``
 --------------------
 
-Replace the slack api_key with one of your own:
+Replace the slack api_key with one of your own
 
 ::
+
     api_key: xoxp-xxxxxxxxxx-xxxxxxxxxx-xxxxxxxxxx-xxxxx
 
 ``srv.pillar.top``
