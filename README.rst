@@ -12,6 +12,7 @@ Getting Started:
 ================
 
 Clone this repo then run 'vagrant up':
+::
     salt minion01 state.highstate (from your master if it did not run during provisioning)
     salt-run state.event pretty=True (will show your events)
     salt minion01 file.touch /beacon_demo/watch_folder/test1 (will kick off the demo)
@@ -47,7 +48,8 @@ Creates the beacon to be used within pillar for your minions
 --------------------
 
 Replace the slack api_key with one of your own:
-.. code-block:: yaml
+
+::
     api_key: xoxp-xxxxxxxxxx-xxxxxxxxxx-xxxxxxxxxx-xxxxx
 
 ``srv.pillar.top``
